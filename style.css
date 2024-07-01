@@ -28,6 +28,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.logo-hflow {
+    margin-top: 0.5em;
+    height: 40px;
+    aspect-ratio: 16/9;
+}
 
 @media only screen and (min-width:1205px) {
     .header {
@@ -878,7 +883,7 @@ html {
         min-width: 300px;
     }
 
-    .book_call h1{
+    .book_call h1 {
         font-family: "DM Sans", sans-serif;
         font-weight: 1000;
     }
@@ -986,8 +991,6 @@ html {
     .link :hover {
         color: rgb(255, 255, 255);
     }
-
-
 }
 
 /*breakpoint*/
